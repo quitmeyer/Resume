@@ -1,0 +1,707 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>Andrew Quitmeyer - Resum&eacute;</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+<!--For Web-->
+<!--<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />-->
+
+
+<!--For Resume-->
+<link rel="stylesheet" type="text/css" media="screen" href="css/core.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/cv.css" />
+<style type="text/css">
+/* @group basics */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+}
+
+body {
+  font: 14px/20px Arial, Helvetica, sans-serif, "Times New Roman", Times, serif;
+  color: #848484;
+}
+
+body.grid {
+  background-image: url(../images/grid.png);
+}
+
+h1 {
+  font-size: 41px;
+  line-height: 50px;
+  font-weight: normal;
+  font-style: normal;
+  color: #3c3c3c;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  font-style: normal;
+  color: #848484;
+}
+
+h3 {
+  font-size: 27px;
+  line-height: 30px;
+  font-weight: normal;
+  font-style: normal;
+  color: #3c3c3c;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a:link, a:visited {
+  color: #3c3c3c;
+  text-decoration: none;
+}
+
+a:link:hover, a:visited:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+
+
+/* @end */
+
+/* @group header */
+
+#header {
+  height: 50px;
+ background-image: url(../images/header.png);
+  line-height: 38px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#header ul {
+  width: 950px;
+  margin: 0 auto;
+  padding: 7px 0 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+#header ul li {
+  display: inline;
+  margin-right: 10px;
+  float: left;
+}
+
+#header ul li a {
+  line-height: 24px;
+  font-size: 12px;
+  font-style: italic;
+  background: url(../images/header-right.png) right 0;
+  float: left;
+  color: #848484;
+  -webkit-transition: opacity 0.2s linear;
+  -moz-transition: opacity 0.2s linear;
+}
+
+#header ul li a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+#header ul li a span {
+  display: block;
+  height: 26px;
+  float: left;
+  background: url(../images/header-left.png) no-repeat;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+/* @end */
+
+/* @group about */
+
+#about {
+  width: 950px;
+  padding: 10px 0 10px;
+  margin: 0 auto;
+  background: url(../images/line.png) repeat-x 0 bottom;
+  overflow: hidden;
+}
+
+#about h1 {
+  margin-bottom: 4px;
+  margin-top: 2px;
+}
+
+#about h2 {
+  font-size: 18px;
+  line-height: 20px;
+  font-style: italic;
+  margin-bottom: 14px;
+}
+
+/* --- */
+
+#story {
+	font-size: 18px;
+	line-height: 30px;
+	width: 400px;
+	float: left;
+	padding-right: 80px;
+}
+
+#picture {
+
+  float: right;
+}
+
+/* @group contact */
+
+#contact {
+  width: 250px;
+  float: left;
+  padding-right: 30px;
+  padding-top: 96px;
+  list-style-type: none;
+  line-height: 20px;
+}
+
+#contact li {
+  width: 250px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+#contact li span {
+  float: left;
+}
+
+#contact li strong {
+  float: right;
+  text-align: right;
+  color: #3c3c3c;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/* @end */
+
+
+
+/* @end */
+
+/* @group section */
+
+.section {
+  width: 950px;
+  margin: 0 auto;
+  padding: 15px 0;
+  background: url(../images/line.png) repeat-x 0 bottom;
+  overflow: hidden;
+}
+
+.section h2 {
+  width: 160px;
+  padding-right: 30px;
+  float: left;
+  padding-top: 0;
+  line-height: 22px;
+}
+
+.section h3 {
+  line-height: 22px;
+  margin-bottom: 0px;
+  font-style: italic;
+}
+
+.section h4 {
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+.section .date {
+	position: absolute;
+	top: 6px;
+	right: 0;
+	width: 66px;
+}
+
+.section .item {
+  width: 710px;
+  padding-left: 50px;
+  float: right;
+  padding-top: 0;
+  margin-bottom: 9px;
+  position: relative;
+  padding-bottom: 5px;
+  background: url(../images/separator.png) no-repeat 0 bottom;
+}
+
+.section .description {
+  width: 510px;
+}
+
+
+
+/* @end */
+
+/* @group small */
+
+body.small {
+}
+
+body.small #header ul  {
+  width: 750px;
+}
+
+body.small #about {
+  width: 750px;
+  position: relative;
+  padding-bottom: 65px;
+  min-height: 260px;
+}
+
+body.small #about #story {
+  float: none;
+}
+
+body.small #about #contact {
+  float: none;
+  padding-top: 0;
+  padding-right: 0;
+  clear: left;
+}
+
+body.small #about #picture {
+  clear: none;
+  float: none;
+  position: absolute;
+  top: 80px;
+  right: 0;
+}
+
+/* --- */
+
+body.small .section {
+  width: 750px;
+}
+
+body.small .section .item {
+  width: 510px;
+}
+
+
+
+/* @end */
+
+/* @group footer */
+
+#footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+
+#story{
+font-size:14px;	
+}
+#picture{
+	height:250px;
+}
+
+#header{
+	height: 0px;
+}
+.section{
+font-size:14px;	
+}
+.section h4 {
+  font-weight:lighter;
+  font-style: normal;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  line-height:14px;
+  
+}
+
+.section h3 {
+  line-height: 22px;
+  margin-bottom: 4px;
+  font-style: italic;
+}
+.section .description {
+  width: 510px;
+  margin-top:8px;
+}
+
+.pubs ul li{
+margin-bottom:.5em;	
+}
+
+/* @end */
+/* @group CV */
+
+
+
+.cv{
+display:block;	
+}
+
+.all{
+	display:none;
+}
+
+
+/* @end */
+
+
+
+.description{
+display:none;	
+}
+</style>
+
+
+
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/functions.js" type="text/javascript"></script>-->
+</head>
+<body>
+<div id="header">
+  </div>
+     
+<div id="about">
+
+  <div id="story">
+ <h1>Andrew Quitmeyer</h1>
+  <h3>
+    Curriculum Vitae</h3>
+    <h2> Ingeniero Multimedial</h2>
+    <p>&nbsp;</p>
+  </div>
+  <ul id="contact">
+      <li><span>Dirección</span> <strong>Georgia Tech, </strong></li>
+      <li><strong>College of Computing,</strong></li>
+      <li><strong> Atlanta, GA</strong></li>
+    <li><span>Tel</span> <strong>3044629436</strong></li>
+    <li><span>Web</span> <strong><a href="#">www.andrewquitmeyer.com</a></strong></li>
+    <li><span>Email</span> <strong>andrew.quitmeyer|at|gmail.com</strong></li>
+  </ul>
+  <img id="picture" src="images/Andy-Quitmeyer-Headshot-SMALL.png" alt="" /> </div>
+<div class="section">
+  <h2>Educación</h2>
+  <div class="item">
+    <h3>Georgia Institute of Technology</h3>
+    <h4>Ph.D. <em>Digital Naturalism </em>(current)</h4>
+    <h4> M.S. <em>Digital Media</em></h4>
+    <div class="date">2009 - Present</div>
+    <div class="description">
+      <p>&nbsp;</p>
+    </div>
+  </div>
+  <div class="item">
+    <h3>University of Illinois Urbana-Champaign</h3>
+    <h4> B.S. <em>Industrial Engineering</em> [Highest Honors] </h4>
+    <h4> B.A. <em>Film Theory and Production</em> [Campus Honors] </h4>
+    <div class="date">2004 - 2008</div>
+    <div class="description">
+      <p>&nbsp;</p>
+    </div>
+  </div>
+  
+  <div class="item cv">
+    <h3>Illinois Math and Science Academy</h3>
+    
+<div class="date">2001 - 2004</div>
+    <div class="description">
+      <p>&nbsp;</p>
+    </div>
+  </div>
+  
+  
+</div>
+<div class="section">
+  <h2>Experiencia Profesional</h2>
+  <div class="item">
+    <h3><a href="#">Multi-Agent Robotics and Systems Lab</a></h3>
+    <h4>Lead Software Designer/Documentarian/Insect Wrangler</h4>
+    <div class="date">2010 - Present</div>
+    <div class="description">
+      <p>&nbsp;</p>
+    </div>
+  </div>
+  <div class="item">
+    <h3>
+  Robocup</h3>
+    <h4>Documentarian Officiale</h4>
+    <div class="date">2011</div>
+    <div class="description">
+      <p>&nbsp;</p>
+    </div>
+  </div>
+    <div class="item">
+    <h3>
+  Stupid Fun Club</h3>
+    <h4>Researcher / Designer</h4>
+    <div class="date">2011</div>
+    <div class="description">
+      <p>&nbsp;</p>
+    </div>
+  </div>
+   <div class="item">
+    <h3>
+  Synlab - Embodied Digital Creativity</h3>
+    <h4>Research Assistant</h4>
+    <div class="date">2009 - 2010</div>
+    <div class="description">
+      <p>&nbsp;</p>
+    </div>
+  </div>
+   <div class="item cv">
+    <h3>
+  Foreign Language School - Shenzhen, China</h3>
+    <h4>Science, English, and Media Educator</h4>
+    <div class="date">2008 - 2009</div>
+    <div class="description">
+      <p> Head designer of experimental new, participatory and multi-media curricula for <br />
+      elementary school students in Shenzhen, China</p>
+    </div>
+  </div>
+  
+   <div class="item cv">
+    <h3>
+  Chinese Storytelling Studio</h3>
+    <h4>Founder, Director</h4>
+    <div class="date">2008 - 2009</div>
+    <div class="description">
+      <p>  Developed English and media skills of school children in China </p>
+    </div>
+  </div>
+  
+  
+     <div class="item cv">
+    <h3>Biographical Study of Moritz Thomsen</h3>
+    <h4>Documentarian</h4>
+    <div class="date">2008</div>
+    <div class="description">
+      <p> Interviewed remote villagers in Esmeraldas, Ecuador about the life and works of <br />
+      the late Peace Corps author</p>
+    </div>
+  </div>
+  
+  
+  
+    <div class="item">
+    <h3>Cartoon Network - [adultswim]</h3>
+    <h4>Production Intern</h4>
+    <div class="date">2006</div>
+    <div class="description">
+      <p>  Worked on animations at all production levels of program development.</p>
+    </div>
+  </div>
+  
+    <div class="item">
+    <h3>The Storytelling Studio</h3>
+    <h4>Creator, Director, Educator</h4>
+    <div class="date">2005-2009</div>
+    <div class="description">
+      <p> Founded children's workshop to promote media literacy and participatory learning. 
+      Also produced versions in Ecuador and China to fight against child labor.</p>
+    </div>
+  </div>
+  
+  
+      <div class="item cv">
+    <h3>Rincon Del Relato</h3>
+    <h4>Founder, Director</h4>
+    <div class="date">2008</div>
+    <div class="description">
+      <p>Developed multimedia and transmedia communication skills in children to fight 
+child labor in Quito, Ecuador.</p>
+    </div>
+  </div>
+  
+      <div class="item cv">
+    <h3>Family Resiliency Center</h3>
+    <h4>Media Specialist</h4>
+    <div class="date">2005-2008</div>
+    <div class="description">
+      <p>  Worked on animations at all production levels of program developmen</p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="section">
+  <h2>Académico</h2>
+      <div class="item">
+    <h3>Continental Datalabel - Engineering Senior Design</h3>
+    <h4>Lead Programmer, Video Specialist</h4>
+    <div class="date">2008</div>
+    <div class="description">
+      <p>Designed and implemented  
+      machine vision error detection systems.</p>
+    </div>
+  </div>
+  
+  
+  <div class="item">
+     <h3>Krannert  Performing Arts Center - "Metamorphoses"</h3>
+    <h4>Media Director</h4>
+    <div class="date">2007</div>
+    <div class="description">
+      <p>Crafted and controlled narrative and ambient animations that served as a live, 
+interactive backdrop for the theatrical performance.</p>
+    </div>
+  </div>
+  
+    <div class="item cv">
+     <h3>Entrepreneurial Engineering</h3>
+    <h4>Mentorship</h4>
+    <div class="date">2004-2006</div>
+    <div class="description">
+      <p> Worked on design and development of new children's toys.</p>
+    </div>
+  </div>
+  
+  
+      <div class="item cv">
+     <h3>Experimental Music and Video Creation</h3>
+    <h4>Official Scientific Inquiry - IMSA</h4>
+    <div class="date">2003-2004</div>
+    <div class="description">
+      <p>Researched and formed an experimental rock band, supported with the creation <br />
+      of a collection of music videos and a historical  documentary.</p>
+    </div>
+  </div>
+  
+      <div class="item cv">
+     <h3> Botanical Survey of Midwestern Regions</h3>
+    <h4>Mentorship</h4>
+    <div class="date">2002-2004</div>
+    <div class="description">
+      <p> Leader of biological survey team for IMSA and the University of Iowa</p>
+    </div>
+  </div>
+
+
+
+
+  
+  
+</div>
+<div class="section">
+  <h2>Lista de publicaciones</h2>
+  <div class="item">
+    <div class="fdescription">
+      <ul>
+        <li>&quot;Ant Hunt: Towards a Validated Model of Live Ant Hunting Behavior.&quot; FLAIRS (2012)</li>
+        <li> Mazalek, Ali, Michael Nitsche, Sanjay Chandrasekharan, Tim Welsh, Paul Clifton, Andrew Quitmeyer, Firaz Peer, Friedrich Kirschner. &quot;Recognizing Your Self in Virtual Avatars&quot;<em>International Journal of Art and Technology </em>(IJART) (2012) </li>
+        <li>&quot;Documatic: Participatory, Mobile Shooting Assistant, Pre-Editor, and Groundwork for Semi-Automatic Filmmaking.&quot; EuroITV (2012)</li>
+        <li>&quot;I'm in the game: embodied puppet interface improves avatar control.&quot; <em>Tangible, Embedded, and Embodied Interaction</em> (2011), pp. 129–13</li>
+        <li>Recognizing Self in Puppet Controlled Virtual Avatars.&quot; <em>Fun and Games</em> (2010)</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="section" style="display:none">
+<h2>Volunteer</h2>
+      <div class="item">
+    <h3> The McKnight Center for the Arts</h3>
+    <h4>Founder</h4>
+    <div class="date">2005-Present</div>
+    <div class="description">
+      <p>Non-profit organization to provides free representation and distribution for artists from any field.	 Co-sponsors multimedia workshops like <em>The Storytelling Studio</em>.</p>
+    </div>
+  </div>
+  
+  
+  <div class="item cv">
+    <h3>Ebert's Overlooked Film Festival</h3>
+    <h4>Media Director</h4>
+    <div class="date">2005-2007</div>
+    <div class="description">
+      <p> Directed multi-camera interviews with world filmmakers, critics, and theorists</p>
+    </div>
+  </div>
+  
+  <div class="item">
+    <h3>Center for Women in Transition</h3>
+    <h4>Tutor</h4>
+    <div class="date">2005-2006</div>
+    <div class="description">
+      <p>Taught underprivileged children and led activities in arts and crafts</p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+</div>
+
+
+<div class="section cv description">
+  <h2>Training</h2>
+  <div class="item">
+        <div class="ndescription">
+      <ul>
+        <li> Adventuresome, intelligent, adaptable, and creative.<br />
+        </li>
+        <li> Talent for teaching and communicating through any medium.<br />
+        </li>
+        <li> Versatile programming background in QBasic, Android, C++, Processing,  PHP. <br />
+        </li>
+        <li> Working fluency in Mandarin Chinese; some Spanish and French.<br />
+        </li>
+        <li> Extensive training in professional design tools, particularly:<br />
+          <strong>Abobe's entire Creative Suite, Final Cut Pro, 
+        Reason, Fruity Loops, Flash, Watchout, AutoCAD,  Eclipse, Laser Cutters, 3D printers</strong></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="section cv description">
+  <h2>Achievements</h2>
+  <div class="item">
+    
+    <div class="ndescription">
+      <ul> 
+        <li class="res">Recognizing Self in Puppet Controlled Virtual Avatars&quot; accepted to<em> Fun and Games 2010</em></li>
+        <li>&quot;I'm in the Game: Embodied Puppet Interface Improves Avatar Control&quot; accepted to<em> TEI 2011</em></li>
+        <li class="res">          Four-time recipient of  full-tuition, <strong>General Assembly Scholarship</strong> for academic excellence</li>
+        <li class="cv">          Recipient of the Robert Byrd Academic Scholarship, Opal Meyers Academic Scholarship</li>
+        <li class="cv">          Dean's List every semester at the University of Illinois</li>
+        <li >          Official selection: <strong>New York International Film Festival</strong>, <strong>DRIP Digital Media Festival </strong>(Headliner), 
+          <strong>Stirfry Student Film Festival</strong>,<strong> Chicago Future Filmmakers Festival</strong> (Winner CCTV Award - Outstanding Chicago Production)</li>
+        <li>          Original works featured on Seasons 3-5 of Cartoon Network's <strong>Aqua Teen Hunger Force</strong> DVDs</li>
+        <li class="cv">          Accepted to the 2007 Transnational East Asian Film Seminar at Indiana University</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <p><em>Referencias disponibles a pedido </em></p>
+ 
+</div>
+</body>
+</html>

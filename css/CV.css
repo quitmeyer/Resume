@@ -1,0 +1,19 @@
+/* @group CV */
+
+
+
+.cv{
+display:block;	
+}
+li.cv{
+display:list-item;	
+}
+
+.all{
+	display:none;
+}
+.resume{
+display:none;
+}
+
+/* @end */
