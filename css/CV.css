@@ -3,7 +3,8 @@
 
 
 .cv{
-display:block;	
+	display:inline;
+	float: right;
 }
 li.cv{
 display:list-item;	
@@ -14,6 +15,17 @@ display:list-item;
 }
 .resume{
 display:none;
+}
+
+
+#contact {
+
+  padding-top: 10px;
+
+
+}
+#picture {
+height:100px;	
 }
 
 /* @end */
