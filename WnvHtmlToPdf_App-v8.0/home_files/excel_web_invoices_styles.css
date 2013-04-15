@@ -1,0 +1,63 @@
+.h1_text {
+	FONT-FAMILY: Verdana; FONT-SIZE: 18px; FONT-WEIGHT: bold
+}
+.h2_text {
+	FONT-FAMILY: Verdana; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.demo_title {
+	COLOR: #005300; FONT-SIZE: 15px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.demo_description {
+	FONT-WEIGHT: normal
+}
+.demo_group_box {
+	BACKGROUND-COLOR: white
+}
+.create_workbook_box {
+	BACKGROUND-COLOR: #ffdece
+}
+.master_title {
+	FONT-SIZE: 18px; FONT-WEIGHT: bold
+}
+TABLE.master_header {
+	BACKGROUND-COLOR: #cacaff
+}
+.master_table {
+	BACKGROUND-COLOR: #fdf5e6
+}
+A:link {
+	COLOR: #4579ae; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #4579ae; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #505050; TEXT-DECORATION: underline
+}
+A.demolinks:link {
+	COLOR: black; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.demolinks:visited {
+	COLOR: black; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.demolinks:hover {
+	COLOR: navy; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.create_workbook:link {
+	COLOR: #005300; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.create_workbook:visited {
+	COLOR: #005300; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.create_workbook:hover {
+	COLOR: #003300; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.selected_demolinks {
+	BACKGROUND-COLOR: #9bfc96
+}
+.demolinks_box {
+	BACKGROUND-COLOR: #f2fff0
+}
+.error {
+	COLOR: #ff3716
+}
