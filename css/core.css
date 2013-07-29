@@ -197,18 +197,16 @@ margin-left:10px;
 /* @group section */
 
 .section {
-  width: 950px;
-  margin: 0 auto;
-  padding: 15px 0;
- /* background: url(../images/line.png) repeat-x 0 bottom;
+	width: 950px;
+	margin: 0 auto;
+	padding: 10px 0;
+	/* background: url(../images/line.png) repeat-x 0 bottom;
 */
-  overflow: hidden;
- 
-   border-bottom-width:thick;
-  border-bottom-color:#FFF;
- 
-  border-top-width:thick;
-  border-top-color:#FFF;
+	overflow: hidden;
+	border-bottom-width: thick;
+	border-bottom-color: #FFF;
+	border-top-width: thick;
+	border-top-color: #FFF;
 }
 
 .section h2 {
@@ -242,6 +240,7 @@ margin-left:10px;
 	top: 6px;
 	right: 0;
 	width: 66px;
+	padding-left:5px;
 }
 
 .section .item {
@@ -253,6 +252,16 @@ margin-left:10px;
   position: relative;
   padding-bottom: 5px;
   background: url(../images/separator.png) no-repeat 0 bottom;
+}
+
+.breakitem {
+	  width: 700px;
+  padding-left: 50px;
+  float: right;
+  padding-top: 0;
+  margin-bottom: 9px;
+  position: relative;
+  padding-bottom: 5px;
 }
 
 .section .description {
