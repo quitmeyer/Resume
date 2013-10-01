@@ -6,6 +6,9 @@ display:none;
 .resume{
 display:block;
 }
+.hideforres{
+display:none;
+}
 
 .all{
 display:none;	
