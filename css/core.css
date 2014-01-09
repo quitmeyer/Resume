@@ -120,7 +120,7 @@ a:link:hover, a:visited:hover {
 #about {
   width: 950px;
   padding: 0px 0 10px;
-  margin: 0 auto;
+  margin: 0 auto 5px;
   background: url(../images/line.png) repeat-x 0 bottom;
   overflow: hidden;
 }
@@ -195,6 +195,10 @@ margin-left:10px;
 
 
 /* @group section */
+
+#topsection {
+	
+}
 
 .section {
 	width: 950px;
