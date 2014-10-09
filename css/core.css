@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  font: 14px/20px Arial, Helvetica, sans-serif, "Times New Roman", Times, serif;
+  font: 14px/20px Bookman Old Style, sans-serif, Verdana, Geneva, sans-serif;
   color: #848484;
 }
 
@@ -248,14 +248,14 @@ margin-left:10px;
 }
 
 .section .item {
-  width: 700px;
-  padding-left: 50px;
-  float: right;
-  padding-top: 0;
-  margin-bottom: 9px;
-  position: relative;
-  padding-bottom: 5px;
-  background: url(../images/separator.png) no-repeat 0 bottom;
+	width: 760px;
+	padding-left: 20px;
+	float: right;
+	padding-top: 0;
+	margin-bottom: 9px;
+	position: relative;
+	padding-bottom: 5px;
+	background: url(../images/separator.png) no-repeat 0 bottom;
 }
 
 .breakitem {
@@ -372,8 +372,10 @@ font-size:12px;
   font-style: italic;
 }
 .section .description {
-  width: 510px;
-  margin-top:4px;
+	width: 550px;
+	margin-top: 4px;
+	padding-left: 20px;
+	font: Verdana;
 }
 
 .pubs ul li{
