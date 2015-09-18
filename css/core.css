@@ -193,7 +193,6 @@ margin-left:10px;
 /* @group section */
 
 #topsection {
-	text-align:center;
 }
 
 .section {
@@ -216,7 +215,8 @@ margin-left:10px;
 	padding-top: 0;
 	line-height: 36px;
 	margin-top: -14px;
-	text-align:right;
+	text-align: right;
+	width: 150px;
   
 }
 
@@ -246,7 +246,7 @@ margin-left:10px;
 }
 
 .section .item {
-	width: 760px;
+	width: 750px;
 	padding-left: 20px;
 	float: right;
 	padding-top: 0;
@@ -382,9 +382,10 @@ margin-bottom:.5em;
 }
 
 .description ul li{
-list-style:square;
-margin-bottom:10px;	
-list-style-position:outside;
+	list-style: square;
+	margin-bottom: 10px;
+	list-style-position: outside;
+	text-align: left;
 	
 }
 
