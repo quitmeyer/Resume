@@ -25,7 +25,8 @@ display:none;
 
 }
 #picture {
-height:100px;	
+	height: 100px;
+	padding-top: 10px;
 }
 
 .hideforCV{

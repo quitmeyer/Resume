@@ -1,5 +1,5 @@
 /* @group basics */
-
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,700italic,700,600italic,600,300italic,300,100,100italic|Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
 * {
   margin: 0;
   padding: 0;
@@ -9,20 +9,16 @@ html, body {
 }
 
 body {
-  font: 14px/20px Bookman Old Style, sans-serif, Verdana, Geneva, sans-serif;
-  color: #848484;
-}
-
-body.grid {
-  background-image: url(../images/grid.png);
+  font: 14px/20px Libre Baskerville, serif, Josefin Sans, sans-serif;
+: url(../images/grid.png);
 }
 
 h1 {
-  font-size: 41px;
-  line-height: 50px;
-  font-weight: normal;
-  font-style: normal;
-  color: #3c3c3c;
+	font-size: 38px;
+	line-height: 50px;
+	font-weight: normal;
+	font-style: normal;
+	color: #3c3c3c;
 }
 
 h2 {
@@ -31,6 +27,7 @@ h2 {
   font-weight: normal;
   font-style: normal;
   color: #848484;
+  font:Libre Baskerville;
 }
 
 h3 {
@@ -142,11 +139,11 @@ a:link:hover, a:visited:hover {
 #story {
 	font-size: 18px;
 	line-height: 30px;
-	width: 400px;
+	width: 380px;
 	float: left;
-	padding-right: 50px;
-	  background: url(../images/separator.png) ;
-	  padding-left:10px;
+	padding-right: 30px;
+	background: url(../images/separator.png);
+	padding-left: 10px;
 
 }
 
@@ -161,14 +158,13 @@ margin-left:10px;
 /* @group contact */
 
 #contact {
-  width: 250px;
-  float: left;
-  padding-right: 30px;
-    padding-left: 30px;
-
-  padding-top: 96px;
-  list-style-type: none;
-  line-height: 20px;
+	width: 250px;
+	float: right;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 96px;
+	list-style-type: none;
+	line-height: 20px;
 
 }
 
@@ -234,7 +230,7 @@ margin-left:10px;
   color:#999;
   
 
-  margin-right:190px;
+  margin-right:90px;
   text-align:right;
   
 }
@@ -245,6 +241,8 @@ margin-left:10px;
 	right: 0;
 	width: 66px;
 	padding-left:5px;
+	background-color:#CCC;
+	color: white;
 }
 
 .section .item {
@@ -372,7 +370,7 @@ font-size:12px;
   font-style: italic;
 }
 .section .description {
-	width: 550px;
+	width: 650px;
 	margin-top: 4px;
 	padding-left: 20px;
 	font: Verdana;
