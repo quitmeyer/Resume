@@ -206,6 +206,7 @@ margin-left:10px;
 	border-bottom-color: #FFF;
 	border-top-width: thick;
 	border-top-color: #FFF;
+
 	
 }
 
@@ -254,6 +255,7 @@ margin-left:10px;
 	position: relative;
 	padding-bottom: 5px;
 	background: url(../images/separator.png) no-repeat 0 bottom;
+		background-color:#FAFAFA;
 }
 
 .breakitem {
