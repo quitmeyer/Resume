@@ -1,0 +1,84 @@
+.demo_title {
+	COLOR: #005300; FONT-SIZE: 15px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.demo_description {
+	FONT-WEIGHT: normal
+}
+.demo_group_box {
+	BACKGROUND-COLOR: white
+}
+.create_workbook_box {
+	BACKGROUND-COLOR: #ffdece
+}
+.master_title {
+	FONT-SIZE: 18px; FONT-WEIGHT: bold
+}
+TABLE.master_header {
+	BACKGROUND-COLOR: #cacaff
+}
+.master_table {
+	BACKGROUND-COLOR: #fdf5e6
+}
+A:link {
+	COLOR: #4579ae; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #4579ae; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #505050; TEXT-DECORATION: underline
+}
+A.demolinks:link {
+	COLOR: black; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.demolinks:visited {
+	COLOR: black; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.demolinks:hover {
+	COLOR: navy; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.create_workbook:link {
+	COLOR: #005300; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.create_workbook:visited {
+	COLOR: #005300; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.create_workbook:hover {
+	COLOR: #005300; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.selected_demolinks {
+	BACKGROUND-COLOR: #9bfc96
+}
+.demolinks_box {
+	BACKGROUND-COLOR: #f2fff0
+}
+.error {
+	COLOR: #ff3716
+}
+A.src_code_link:link {
+	COLOR: #505050; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.src_code_link:visited {
+	COLOR: #505050; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.src_code_link:hover {
+	COLOR: #4579ae; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.source_code_title {
+	COLOR: #000000; FONT-SIZE: 15px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.langlinks:link {
+	COLOR: black; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.langlinks:visited {
+	COLOR: black; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.langlinks:hover {
+	COLOR: navy; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+TD.selected_lang_link {
+	BACKGROUND-COLOR: #ebf0f0
+}
+TD.unselected_lang_link {
+	BACKGROUND-COLOR: #ffffff
+}

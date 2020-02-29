@@ -1,0 +1,456 @@
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT: 11px Verdana, sans-serif; BACKGROUND: url(img/bg.png) #f4f4f4 repeat-y center 50%; HEIGHT: 100%; COLOR: #505050; PADDING-TOP: 0px
+}
+.IE8Fix {
+	Z-INDEX: 100
+}
+DIV.center {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 876px; PADDING-RIGHT: 0px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto; PADDING-TOP: 0px
+}
+DIV.center TABLE {
+	TEXT-ALIGN: left
+}
+DIV.main {
+	MARGIN: 10px; WIDTH: 856px
+}
+TABLE.cont {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; BORDER-SPACING: 0; WIDTH: 680px; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; PADDING-TOP: 0px
+}
+TABLE.contcfg {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; BORDER-SPACING: 0; WIDTH: 670px; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; PADDING-TOP: 0px
+}
+DIV.main2 {
+	MARGIN-TOP: 30px; WIDTH: 826px; MARGIN-LEFT: 40px; MARGIN-RIGHT: 10px
+}
+TABLE.cont2 {
+	MARGIN-TOP: 30px; WIDTH: 456px; MARGIN-BOTTOM: 30px; MARGIN-RIGHT: 30px
+}
+TD.minicont {
+	PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+DIV.main3 {
+	WIDTH: 866px; MARGIN-BOTTOM: 10px; MARGIN-LEFT: 10px
+}
+TABLE.cont3 {
+	MARGIN-TOP: 30px; WIDTH: 680px; MARGIN-BOTTOM: 30px; MARGIN-RIGHT: 10px
+}
+TABLE.footer {
+	WIDTH: 856px; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+TABLE.head {
+	BACKGROUND-IMAGE: url(img/h-bglogo.png); PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 876px; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; PADDING-TOP: 0px
+}
+TABLE.head TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TABLE.headmenu {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; COLOR: #ffffff; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+TABLE.headmenu TD {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 10px !important; PADDING-RIGHT: 0px !important; HEIGHT: 21px; PADDING-TOP: 0px !important
+}
+TABLE.headmenu A:link {
+	COLOR: #ffffff; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+TABLE.headmenu A:visited {
+	COLOR: #ffffff; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+TABLE.headmenu A:hover {
+	COLOR: #ffffff; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+TD.menuoff {
+	BORDER-BOTTOM: #e1e1e1 1px solid; BORDER-LEFT: #e1e1e1 1px solid; HEIGHT: 22px; BORDER-TOP: #e1e1e1 1px solid; BORDER-RIGHT: #e1e1e1 1px solid
+}
+TD.menu {
+	BORDER-BOTTOM: #e1e1e1 1px solid; BORDER-LEFT: #e1e1e1 1px solid; HEIGHT: 22px; BORDER-TOP: #e1e1e1 1px solid; BORDER-RIGHT: #e1e1e1 1px solid
+}
+TD.menu {
+	CURSOR: pointer
+}
+TD.menu A:visited {
+	TEXT-DECORATION: none
+}
+TD.menu A:link {
+	TEXT-DECORATION: none
+}
+TD.menu A:hover {
+	COLOR: #4579ae; TEXT-DECORATION: none
+}
+TD.menuoff {
+	COLOR: #777777
+}
+IMG.fr {
+	WIDTH: 18px; HEIGHT: 18px; VERTICAL-ALIGN: middle
+}
+TD.clic {
+	BORDER-BOTTOM: #e1e1e1 1px solid; BORDER-LEFT: #e1e1e1 1px solid; PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; WIDTH: 100%; PADDING-RIGHT: 15px; BORDER-TOP: #e1e1e1 1px solid; CURSOR: pointer; BORDER-RIGHT: #e1e1e1 1px solid; PADDING-TOP: 15px
+}
+TD.cfg {
+	BORDER-BOTTOM: #e1e1e1 1px solid; BORDER-LEFT: #e1e1e1 1px solid; PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; WIDTH: 100%; PADDING-RIGHT: 15px; BACKGROUND: #f4f9ff; BORDER-TOP: #e1e1e1 1px solid; BORDER-RIGHT: #e1e1e1 1px solid; PADDING-TOP: 15px
+}
+IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT: 11px Verdana, sans-serif; COLOR: #505050; PADDING-TOP: 0px
+}
+SELECT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT: 11px Verdana, sans-serif; COLOR: #505050; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT: 11px Verdana, sans-serif; COLOR: #505050; PADDING-TOP: 0px
+}
+TEXTAREA {
+	BORDER-BOTTOM: #d0d0d0 1px inset; BORDER-LEFT: #d0d0d0 1px inset; FONT: 11px Verdana, sans-serif; COLOR: #505050; BORDER-TOP: #d0d0d0 1px inset; BORDER-RIGHT: #d0d0d0 1px inset
+}
+IMG.foto {
+	BORDER-BOTTOM: #e1e1e1 1px solid; BORDER-LEFT: #e1e1e1 1px solid; PADDING-BOTTOM: 6px; MARGIN: 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; BORDER-TOP: #e1e1e1 1px solid; BORDER-RIGHT: #e1e1e1 1px solid; PADDING-TOP: 6px
+}
+TD.fotog {
+	WIDTH: 690px; HEIGHT: 202px; VERTICAL-ALIGN: top
+}
+TD.seph {
+	BACKGROUND-IMAGE: url(img/sg.gif); PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: repeat-x; HEIGHT: 8px; PADDING-TOP: 0px
+}
+TD.seph2 {
+	BACKGROUND-IMAGE: url(img/sg.gif); PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: center 50%; HEIGHT: 10px; PADDING-TOP: 0px
+}
+INPUT.submit {
+	BACKGROUND-IMAGE: url(img/b-bot.gif); BORDER-BOTTOM: #d0d0d0 1px outset; TEXT-ALIGN: center; BORDER-LEFT: #d0d0d0 1px outset; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Arial, sans-serif; HEIGHT: 20px; COLOR: #4579ae; BORDER-TOP: #d0d0d0 1px outset; CURSOR: pointer; BORDER-RIGHT: #d0d0d0 1px outset; PADDING-TOP: 0px
+}
+TD.bottone {
+	BACKGROUND-IMAGE: url(img/b-bot.gif); BORDER-BOTTOM: #d0d0d0 1px outset; TEXT-ALIGN: center; BORDER-LEFT: #d0d0d0 1px outset; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Arial, sans-serif; HEIGHT: 20px; COLOR: #4579ae; BORDER-TOP: #d0d0d0 1px outset; CURSOR: pointer; BORDER-RIGHT: #d0d0d0 1px outset; PADDING-TOP: 0px
+}
+INPUT.sumbmit A {
+	TEXT-DECORATION: none
+}
+TD.bottone A {
+	TEXT-DECORATION: none
+}
+INPUT.text {
+	BORDER-BOTTOM: #d0d0d0 1px inset; BORDER-LEFT: #d0d0d0 1px inset; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; HEIGHT: 17px; BORDER-TOP: #d0d0d0 1px inset; BORDER-RIGHT: #d0d0d0 1px inset; PADDING-TOP: 1px
+}
+INPUT.hmtext {
+	BORDER-BOTTOM: #d0d0d0 1px solid; BORDER-LEFT: #d0d0d0 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #f7f7f7; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT: 10px verdana, arial, sans-serif; MARGIN-BOTTOM: 3px; BORDER-TOP: #d0d0d0 1px solid; BORDER-RIGHT: #d0d0d0 1px solid; PADDING-TOP: 2px
+}
+TD.chk {
+	BACKGROUND-IMAGE: url(img/b2-20.png); BORDER-BOTTOM: #e1e1e1 1px solid; BORDER-LEFT: #e1e1e1 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 20px; BORDER-TOP: #e1e1e1 1px solid; BORDER-RIGHT: #e1e1e1 1px solid; PADDING-TOP: 0px
+}
+TD.warning {
+	PADDING-BOTTOM: 5px !important; PADDING-LEFT: 50px !important; WIDTH: 100%; PADDING-RIGHT: 5px !important; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 50px !important; COLOR: #505050; FONT-WEIGHT: normal; PADDING-TOP: 5px !important
+}
+TD.error {
+	PADDING-BOTTOM: 5px !important; PADDING-LEFT: 50px !important; WIDTH: 100%; PADDING-RIGHT: 5px !important; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 50px !important; COLOR: #505050; FONT-WEIGHT: normal; PADDING-TOP: 5px !important
+}
+TD.ok {
+	PADDING-BOTTOM: 5px !important; PADDING-LEFT: 50px !important; WIDTH: 100%; PADDING-RIGHT: 5px !important; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 50px !important; COLOR: #505050; FONT-WEIGHT: normal; PADDING-TOP: 5px !important
+}
+TD.warning {
+	BACKGROUND-IMAGE: url(img/warning.png); BORDER-BOTTOM: #feaa60 1px solid; BORDER-LEFT: #feaa60 1px solid; BACKGROUND-COLOR: #fef5ec; BORDER-TOP: #feaa60 1px solid; BORDER-RIGHT: #feaa60 1px solid
+}
+TD.error {
+	BACKGROUND-IMAGE: url(img/error.png); BORDER-BOTTOM: #ee6666 1px solid; BORDER-LEFT: #ee6666 1px solid; BACKGROUND-COLOR: #fff6f6; BORDER-TOP: #ee6666 1px solid; BORDER-RIGHT: #ee6666 1px solid
+}
+TD.ok {
+	BACKGROUND-IMAGE: url(img/ok.png); BORDER-BOTTOM: #00bb00 1px solid; BORDER-LEFT: #00bb00 1px solid; BACKGROUND-COLOR: #f5fff3; BORDER-TOP: #00bb00 1px solid; BORDER-RIGHT: #00bb00 1px solid
+}
+TD.warning:first-line {
+	COLOR: #ff6600; FONT-WEIGHT: bold
+}
+TD.error:first-line {
+	COLOR: #dd0000; FONT-WEIGHT: bold
+}
+TD.ok:first-line {
+	COLOR: #00bb00; FONT-WEIGHT: bold
+}
+TABLE.box {
+	BORDER-BOTTOM: #d0d0d0 1px solid; BORDER-LEFT: #d0d0d0 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; MARGIN-LEFT: auto; BORDER-TOP: #d0d0d0 1px solid; MARGIN-RIGHT: auto; PADDING-TOP: 0px
+}
+TABLE.box TH {
+	PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #e1e1e1; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; HEIGHT: 20px; PADDING-TOP: 3px
+}
+TABLE.box TD {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px
+}
+TABLE.quicklink {
+	BORDER-BOTTOM: #d0d0d0 2px solid; BORDER-LEFT: #d0d0d0 2px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: aliceblue; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; BORDER-TOP: #d0d0d0 2px solid; MARGIN-RIGHT: auto; BORDER-RIGHT: #d0d0d0 2px solid; PADDING-TOP: 0px
+}
+TABLE.quicklink TH {
+	PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #e1e1e1; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; HEIGHT: 20px; PADDING-TOP: 3px
+}
+TABLE.quicklink TD {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px
+}
+A:link {
+	COLOR: #4579ae; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #4579ae; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #505050; TEXT-DECORATION: underline
+}
+A.quicklink:link {
+	COLOR: #4579ae; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.quicklink:visited {
+	COLOR: #4579ae; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.quicklink:hover {
+	COLOR: #505050; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.faqlink:link {
+	COLOR: #505050; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.faqlink:visited {
+	COLOR: #505050; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.faqlink:hover {
+	COLOR: #4579ae; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.downloadlink:link {
+	COLOR: #4579ae; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.downloadlink:visited {
+	COLOR: #4579ae; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+A.downloadlink:hover {
+	COLOR: #505050; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+TABLE.quicklink A:link {
+	COLOR: #4579ae; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+TABLE.quicklink A:visited {
+	COLOR: #4579ae; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+TABLE.quicklink A:hover {
+	COLOR: #505050; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.submenu:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.submenu:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.submenu:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A.langon:link {
+	COLOR: #ffffff; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.langon:visited {
+	COLOR: #ffffff; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.langon:hover {
+	COLOR: #ffffff; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.langoff {
+	COLOR: #ffffff; FONT-WEIGHT: bold
+}
+A.menu:link {
+	TEXT-DECORATION: none
+}
+A.menu:visited {
+	TEXT-DECORATION: none
+}
+A.menu:hover {
+	TEXT-DECORATION: underline
+}
+A.top:link {
+	FONT-SIZE: 12px
+}
+A.top:visited {
+	FONT-SIZE: 12px
+}
+A.top:hover {
+	FONT-SIZE: 12px
+}
+A.topcat:link {
+	COLOR: #6a8cae; FONT-SIZE: 11px
+}
+A.topcat:visited {
+	COLOR: #6a8cae; FONT-SIZE: 11px
+}
+A.topcat:hover {
+	COLOR: #6a8cae; FONT-SIZE: 11px
+}
+.menuoff {
+	FONT-FAMILY: Arial, sans-serif; COLOR: #777777
+}
+.menut {
+	COLOR: #777777; FONT-WEIGHT: bold
+}
+.subtitle {
+	FONT-FAMILY: Arial, sans-serif; COLOR: #4579ae; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+H1 {
+	FONT-FAMILY: Arial, sans-serif; COLOR: #4579ae; FONT-SIZE: 18px; FONT-WEIGHT: normal
+}
+H1.pro {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #ed0000; PADDING-TOP: 0px
+}
+H1.biz {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #3481d6; PADDING-TOP: 0px
+}
+H1.free {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #f8880b; PADDING-TOP: 0px
+}
+H1.isp {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; COLOR: #007401; PADDING-TOP: 0px
+}
+H1.cat {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #4579ae; PADDING-TOP: 0px
+}
+H1.normal {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #4579ae; FONT-SIZE: 24px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+H2.normal {
+	COLOR: #4579ae; FONT-SIZE: 18px
+}
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #505050; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+H3.normal {
+	COLOR: #4579ae
+}
+TD.lightbluetext {
+	TEXT-ALIGN: center; HEIGHT: 25px; COLOR: #698aac; FONT-SIZE: 10px
+}
+A.lightbluetext:link {
+	TEXT-DECORATION: none
+}
+A.lightbluetext:visited {
+	TEXT-DECORATION: none
+}
+A.lightbluetext:hover {
+	TEXT-DECORATION: underline
+}
+.lightbluetext {
+	COLOR: #698aac; FONT-SIZE: 10px
+}
+.testo {
+	COLOR: #505050; FONT-SIZE: 11px; FONT-WEIGHT: normal
+}
+.testotop {
+	COLOR: #505050; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.error {
+	COLOR: #ff3716
+}
+.testobianco {
+	COLOR: #ffffff; FONT-WEIGHT: bold
+}
+.testopro {
+	COLOR: #ed0000
+}
+.testobiz {
+	COLOR: #3481d6
+}
+.testoisp {
+	COLOR: #007401
+}
+.testofree {
+	COLOR: #f8880b
+}
+.sr {
+	COLOR: #008000
+}
+.titolo {
+	FONT-STYLE: normal; FONT-FAMILY: Verdana, sans-serif; COLOR: #505050; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.titolobox {
+	FONT-STYLE: normal; FONT-FAMILY: Verdana, sans-serif; COLOR: #505050; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+A.linkv:link {
+	FONT-STYLE: normal; FONT-FAMILY: Verdana, sans-serif; COLOR: #4579ae; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.linkv:visited {
+	FONT-STYLE: normal; FONT-FAMILY: Verdana, sans-serif; COLOR: #4579ae; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.linkv:hover {
+	FONT-STYLE: normal; FONT-FAMILY: Verdana, sans-serif; COLOR: #505050; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.linktv:link {
+	FONT-STYLE: normal; FONT-FAMILY: Verdana, sans-serif; COLOR: #505050; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.linktv:visited {
+	FONT-STYLE: normal; FONT-FAMILY: Verdana, sans-serif; COLOR: #505050; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.linktv:hover {
+	FONT-STYLE: normal; FONT-FAMILY: Verdana, sans-serif; COLOR: #4579ae; FONT-SIZE: 11px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.text {
+	COLOR: #505050
+}
+.textwhi {
+	COLOR: #ffffff
+}
+.hdata {
+	COLOR: #72631a
+}
+.titolov {
+	COLOR: #ffffff; FONT-WEIGHT: bold
+}
+.titolov A:link {
+	COLOR: #ffffff
+}
+.titolov A:hover {
+	COLOR: #505050
+}
+.titolov A:visited {
+	COLOR: #ffffff
+}
+.titolov2 {
+	COLOR: #505050; FONT-WEIGHT: bold
+}
+.redg {
+	COLOR: #ff0000; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.bizg {
+	COLOR: #4579ae; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.ispg {
+	COLOR: #4a884c; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.freeg {
+	COLOR: #ff6600; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.warning {
+	COLOR: #ff6600; FONT-WEIGHT: bold
+}
+.ok {
+	COLOR: #00bb00; FONT-WEIGHT: bold
+}
+DIV.isptoolbar {
+	POSITION: absolute; BACKGROUND-COLOR: transparent; WIDTH: 220px; DISPLAY: none; HEIGHT: 38px
+}
+IMG.ico18 {
+	WIDTH: 18px; HEIGHT: 18px; VERTICAL-ALIGN: middle
+}
+IMG.star {
+	WIDTH: 15px; HEIGHT: 15px; VERTICAL-ALIGN: middle
+}
+#nuvola {
+	Z-INDEX: 100; BORDER-BOTTOM: black 1px solid; POSITION: absolute; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: lightyellow; PADDING-LEFT: 2px; WIDTH: 150px; PADDING-RIGHT: 2px; VISIBILITY: hidden; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 2px; LEFT: -300px
+}
+#angolonuvola {
+	Z-INDEX: 101; POSITION: absolute; VISIBILITY: hidden; LEFT: -300px
+}
+FIELDSET {
+	BORDER-BOTTOM-STYLE: groove; BORDER-BOTTOM-COLOR: #e1e1e1; PADDING-BOTTOM: 15px; BORDER-RIGHT-STYLE: groove; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; BORDER-TOP-STYLE: groove; BORDER-RIGHT-COLOR: #e1e1e1; BORDER-LEFT-STYLE: groove; BORDER-LEFT-COLOR: #e1e1e1
+}
+LEGEND {
+	FONT: 11px Verdana, sans-serif; COLOR: #505050
+}
+A.lnk:link {
+	COLOR: #ffffff; FONT-SIZE: 1px; TEXT-DECORATION: none
+}
+A.lnk:visited {
+	COLOR: #ffffff; FONT-SIZE: 1px; TEXT-DECORATION: none
+}
+A.lnk:hover {
+	COLOR: #ffffff; FONT-SIZE: 1px; TEXT-DECORATION: underline
+}
